@@ -7,7 +7,7 @@ import useStyles from './styles';
 const CustomizedSnackbar = ({ open, setOpen }) => {
   const classes = useStyles();
 
-  const handleClose = (event, reason) => {
+  const handleClose = (reason) => {
     if (reason === 'clickaway') {
       return;
     }
